@@ -1,21 +1,2 @@
-
-/**
- * DataXu logo.
- */
-
-.logo[data-logo="DataXu"] {
-  width: 4.0em;
-}
-
-.logo[data-logo="DataXu"] > * {
-  background-image: url(images/logo.svg);
-  margin: 0 0 0 0;
-}
-
-.logo[data-logo="DataXu"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="DataXu"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
